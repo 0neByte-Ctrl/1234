@@ -1,6 +1,4 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Kola Search — double iframe</title><style>html,body{margin:0;width:100%;height:100%;background:#fff}iframe{display:block;width:100%;height:100%;border:0}@media(prefers-color-scheme:dark){html,body{background:#191919}}</style></head><body><iframe title="Kola Search — double iframe" srcdoc="&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;title&gt;Kola Search — inner frame&lt;/title&gt;&lt;style&gt;html,body{margin:0;width:100%;height:100%;background:#fff}iframe{display:block;width:100%;height:100%;border:0}@media(prefers-color-scheme:dark){html,body{background:#191919}}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;iframe title=&quot;Kola Search — inner frame&quot; srcdoc=&quot;&amp;lt;!doctype html&amp;gt;
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Kola Search — double iframe</title><style>html,body{margin:0;width:100%;height:100%;background:#fff}iframe{display:block;width:100%;height:100%;border:0}@media(prefers-color-scheme:dark){html,body{background:#191919}}</style></head><body><iframe title="Kola Search — double iframe" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;title&gt;Kola Search — inner frame&lt;/title&gt;&lt;style&gt;html,body{margin:0;width:100%;height:100%;background:#fff}iframe{display:block;width:100%;height:100%;border:0}@media(prefers-color-scheme:dark){html,body{background:#191919}}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;iframe title=&quot;Kola Search — inner frame&quot; srcdoc=&quot;&amp;lt;!doctype html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
 &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
@@ -11,22 +9,51 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,&amp;quot;Segoe UI&amp;quot;,sans-serif}main{max-width:960px;margin:auto;padding:32px 24px}header{display:flex;align-items:center;gap:12px;margin-bottom:24px}.mark{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:#e5f2fc;color:#1769b7;font-size:26px;font-weight:600}h1{font-size:28px;letter-spacing:-.7px;line-height:1.2;margin:0}header p{margin:4px 0 0;color:var(--muted);font-size:14px}.panel{border:1px solid var(--border);border-radius:12px;padding:16px;min-height:180px;background:var(--bg)}#status{margin:8px 0;padding:16px;background:var(--surface);border-radius:8px;color:var(--muted)}.hint{color:var(--muted);font-size:14px;margin:16px 0 0}.gsc-control-cse{border:0!important;padding:0!important;background:transparent!important}.gsc-input-box{border-radius:8px!important}.gsc-search-button-v2{min-height:44px;border-radius:8px!important;background:#1769b7!important;border-color:#1769b7!important}.gsc-input{font-size:16px!important}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.gsc-results-wrapper-visible{max-width:100%}noscript{display:block;padding:16px}
 @media(prefers-color-scheme:dark){:root{--bg:#191919;--surface:#202020;--text:#fff;--muted:#bbb9b5;--border:#50504d;--accent:#5e9fe8}.panel{background:#fff;color:#2c2c2b}#status{background:#f9f8f7;color:#62605c}}
 @media(max-width:480px){main{padding:24px 16px}.panel{padding:12px}h1{font-size:24px}}
+[hidden]{display:none!important}.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}.toolbar button,.toolbar a,.urlform button{font:inherit;min-height:44px;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);cursor:pointer;text-decoration:none}.toolbar a{margin-left:auto}.address{flex:1;min-width:120px;overflow-wrap:anywhere;font-size:14px;color:var(--muted)}#website-frame{width:100%;height:65vh;min-height:300px;border:1px solid var(--border);border-radius:8px;background:white}.urlform{display:flex;gap:8px;margin-bottom:16px}.urlform input{flex:1;min-width:0;font:inherit;padding:10px 12px;min-height:44px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text)}.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.viewer-note{font-size:14px;color:var(--muted);margin:0 0 16px}@media(max-width:480px){.toolbar .address{order:3;flex-basis:100%}.toolbar{gap:8px}}
 &amp;lt;/style&amp;gt;
 &amp;lt;script&amp;gt;
 window.__gcse={callback:function(){document.getElementById(&amp;#x27;status&amp;#x27;).hidden=true;}};
 function searchLoadFailed(){const el=document.getElementById(&amp;#x27;status&amp;#x27;);el.hidden=false;el.textContent=&amp;#x27;Search could not connect. Check your internet connection and allow Google’s search script, then reload. If you are viewing a restricted preview, open the HTML file in your browser or host it online.&amp;#x27;;}
 window.addEventListener(&amp;#x27;DOMContentLoaded&amp;#x27;,function(){const script=document.createElement(&amp;#x27;script&amp;#x27;);script.async=true;script.src=&amp;#x27;https://cse.google.com/cse.js?cx=a5a8916f59c614e1c&amp;#x27;;script.onerror=searchLoadFailed;document.head.appendChild(script);setTimeout(function(){if(!document.getElementById(&amp;#x27;status&amp;#x27;).hidden)searchLoadFailed();},15000);});
+
+function openWebsite(raw){
+ let url;try{url=new URL(/^https?:\/\//i.test(raw)?raw:&amp;#x27;https://&amp;#x27;+raw);if(![&amp;#x27;http:&amp;#x27;,&amp;#x27;https:&amp;#x27;].includes(url.protocol))return false;}catch(e){return false;}
+ document.getElementById(&amp;#x27;website-frame&amp;#x27;).src=url.href;
+ document.getElementById(&amp;#x27;address&amp;#x27;).textContent=url.href;
+ document.getElementById(&amp;#x27;open-external&amp;#x27;).href=url.href;
+ document.getElementById(&amp;#x27;search-panel&amp;#x27;).hidden=true;
+ document.getElementById(&amp;#x27;website-viewer&amp;#x27;).hidden=false;
+ document.getElementById(&amp;#x27;back-search&amp;#x27;).focus();
+ return true;
+}
+window.addEventListener(&amp;#x27;DOMContentLoaded&amp;#x27;,function(){
+ document.getElementById(&amp;#x27;url-form&amp;#x27;).addEventListener(&amp;#x27;submit&amp;#x27;,function(e){e.preventDefault();const input=document.getElementById(&amp;#x27;url-input&amp;#x27;);input.setCustomValidity(&amp;#x27;&amp;#x27;);if(!openWebsite(input.value.trim())){input.setCustomValidity(&amp;#x27;Enter a valid website address.&amp;#x27;);input.reportValidity();}});
+ document.getElementById(&amp;#x27;url-input&amp;#x27;).addEventListener(&amp;#x27;input&amp;#x27;,function(){this.setCustomValidity(&amp;#x27;&amp;#x27;);});
+ document.getElementById(&amp;#x27;back-search&amp;#x27;).addEventListener(&amp;#x27;click&amp;#x27;,function(){document.getElementById(&amp;#x27;website-viewer&amp;#x27;).hidden=true;document.getElementById(&amp;#x27;search-panel&amp;#x27;).hidden=false;document.getElementById(&amp;#x27;website-frame&amp;#x27;).src=&amp;#x27;about:blank&amp;#x27;;document.getElementById(&amp;#x27;url-input&amp;#x27;).focus();});
+ document.addEventListener(&amp;#x27;click&amp;#x27;,function(e){
+  if(e.button!==0||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;
+  const a=e.target.closest&amp;amp;&amp;amp;e.target.closest(&amp;#x27;#search-panel .gsc-webResult a.gs-title, #search-panel .gsc-webResult .gs-image&amp;#x27;);
+  if(!a||!a.href||a.closest(&amp;#x27;.gsc-adBlock&amp;#x27;))return;
+  if(openWebsite(a.href)){e.preventDefault();e.stopImmediatePropagation();}
+ },true);
+});
 &amp;lt;/script&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
 &amp;lt;main&amp;gt;
 &amp;lt;header&amp;gt;&amp;lt;div class=&amp;quot;mark&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;K&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;h1&amp;gt;Kola Search&amp;lt;/h1&amp;gt;&amp;lt;p&amp;gt;Your search space, powered by Google.&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/header&amp;gt;
-&amp;lt;section class=&amp;quot;panel&amp;quot; aria-label=&amp;quot;Search and results&amp;quot;&amp;gt;
+&amp;lt;form id=&amp;quot;url-form&amp;quot; class=&amp;quot;urlform&amp;quot;&amp;gt;&amp;lt;label for=&amp;quot;url-input&amp;quot; class=&amp;quot;sr-only&amp;quot;&amp;gt;Website address&amp;lt;/label&amp;gt;&amp;lt;input id=&amp;quot;url-input&amp;quot; type=&amp;quot;text&amp;quot; inputmode=&amp;quot;url&amp;quot; placeholder=&amp;quot;Paste a website URL&amp;quot; autocomplete=&amp;quot;url&amp;quot; required&amp;gt;&amp;lt;button type=&amp;quot;submit&amp;quot;&amp;gt;Open here&amp;lt;/button&amp;gt;&amp;lt;/form&amp;gt;
+&amp;lt;section id=&amp;quot;search-panel&amp;quot; class=&amp;quot;panel&amp;quot; aria-label=&amp;quot;Search and results&amp;quot;&amp;gt;
 &amp;lt;p id=&amp;quot;status&amp;quot; role=&amp;quot;status&amp;quot; aria-live=&amp;quot;polite&amp;quot;&amp;gt;Connecting to your search engine…&amp;lt;/p&amp;gt;
-&amp;lt;div class=&amp;quot;gcse-search&amp;quot; data-linktarget=&amp;quot;_blank&amp;quot; data-newwindow=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;gcse-search&amp;quot; data-linktarget=&amp;quot;kola-site-viewer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
 &amp;lt;noscript&amp;gt;Enable JavaScript to use this search engine.&amp;lt;/noscript&amp;gt;
 &amp;lt;/section&amp;gt;
-&amp;lt;p class=&amp;quot;hint&amp;quot;&amp;gt;Results appear here. Websites open in a new tab. Search coverage and ads are controlled by your Google search-engine settings.&amp;lt;/p&amp;gt;
+&amp;lt;section id=&amp;quot;website-viewer&amp;quot; aria-label=&amp;quot;Website viewer&amp;quot; hidden&amp;gt;
+&amp;lt;div class=&amp;quot;toolbar&amp;quot;&amp;gt;&amp;lt;button id=&amp;quot;back-search&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;← Back to search&amp;lt;/button&amp;gt;&amp;lt;span id=&amp;quot;address&amp;quot; class=&amp;quot;address&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;a id=&amp;quot;open-external&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;Open in new tab ↗&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;p class=&amp;quot;viewer-note&amp;quot;&amp;gt;If a website stays blank or refuses to connect, it blocks embedding. Use “Open in new tab” instead.&amp;lt;/p&amp;gt;
+&amp;lt;iframe id=&amp;quot;website-frame&amp;quot; name=&amp;quot;kola-site-viewer&amp;quot; title=&amp;quot;Selected website&amp;quot; referrerpolicy=&amp;quot;strict-origin-when-cross-origin&amp;quot; sandbox=&amp;quot;allow-scripts allow-forms allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-downloads&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&amp;lt;/section&amp;gt;
+&amp;lt;p class=&amp;quot;hint&amp;quot;&amp;gt;Websites open here when they allow embedding. Search coverage and ads are controlled by your Google search-engine settings.&amp;lt;/p&amp;gt;
 &amp;lt;/main&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;&quot;&gt;&lt;/iframe&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></body></html>
